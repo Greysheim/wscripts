@@ -1,7 +1,7 @@
 @echo off
 prompt :
 
-set outfile="C:\Users\Daniel\.bin\battlenet_log.txt"
+set outfile="C:\Users\Daniel\Documents\GitHub\wscripts\battlenet_log.txt"
 
 :: Launch Battle.net and WKey Disabler
 echo Launching Battle.net... > %outfile%
