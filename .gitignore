@@ -3,6 +3,7 @@
 
 battlenet_log.txt
 *.exe
+*.class
 
 #################
 ## Eclipse
