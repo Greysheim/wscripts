@@ -64,7 +64,7 @@ public class Transactions {
 					dueday -= length;
 					duemonth = nextmonth; 
 				}
-				fstring = "Nathan   Rent     +165      %02d %s   %02d %s  IN%n";
+				fstring = "Nathan   Rent     +185      %02d %s   %02d %s  IN%n";
 				System.out.format(fstring,dueday,duemonth,day,month);
 				if(week==1){
 					fstring = "Nathan   Power    +??       %02d %s   %02d %s  IN%n";
@@ -80,7 +80,7 @@ public class Transactions {
 					dueday -= length;
 					duemonth = nextmonth;
 				}
-				fstring = "ChsWlsn  Rent     -360      %02d %s   %02d %s  AP%n";
+				fstring = "ChsWlsn  Rent     -400      %02d %s   %02d %s  AP%n";
 				System.out.format(fstring,dueday,duemonth,day,month);
 			}
 			if(weekday.equals("Fri")) {
